@@ -1,6 +1,6 @@
 The contract has an owner, who will act as the administrator of the voting process.
 
-The owner is automatically set to the address that deploys the contract using msg.sender.
+The owner is automatically set to the address that deploys the contract whose address is accessed by msg.sender
 
 Here,only the owner has the power to control the status of the contract i.e. Voting is on or voting is off.
 
